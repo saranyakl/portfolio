@@ -9,6 +9,7 @@ function MainPage() {
       <p className="third-para MainPage-para">
       I am excited about my next opportunity that focuses on end-to-end ownership which is a major driving force for me. I like to learn new technologies which is why I ventured into Devops after being a front end engineer. I am excited to take up new challenges in my next job and that aligns with this opportunity, which deals with fast paced development. Please feel free to reach out for fun collaborations, projects or job opportunities.
       </p>
+      <div class="angle-down-icon"></div>
     </div>
   );
 }

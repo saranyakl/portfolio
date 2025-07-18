@@ -110,6 +110,17 @@ html, body {
   font-weight: 500;
   font-style: italic;
 }
+.angle-down-icon {
+  background-image: url('./angle-small-down.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+  color: var(--color-dark-brown);
+  stroke: var(--color-dark-brown);
+  padding-bottom: 30px;
+}
 .links-block {
   display: flex;
   flex-direction: row;
@@ -136,6 +147,12 @@ html, body {
 #main {
   display: flex;
   flex-direction: column;
+}
+.MainPage {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 .SkillPage {
   display: flex;
