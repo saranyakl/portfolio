@@ -63,7 +63,7 @@ export default function LeftBlock() {
               <a href="https://www.linkedin.com/in/saranya-kalidindi/" target="_blank" rel="noopener noreferrer">
                   <img src="/icons/linkedin2.svg" fill="#AD6A6C" alt="github" width="32" height="32"/>
               </a>
-              <a href="mailto:klsaranya108@gmail.com?subject=Hello%20from%20portfolio&body=Hi%20there!" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:klsaranya.dev@gmail.com?subject=Hello%20from%20portfolio&body=Hi%20there!" target="_blank" rel="noopener noreferrer">
                   <img src="/icons/gmail2.svg" fill="#AD6A6C" alt="github" width="32" height="32"/>
               </a>
           </div>
