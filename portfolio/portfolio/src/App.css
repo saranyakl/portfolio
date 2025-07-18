@@ -9,6 +9,10 @@
   --color-bg: #E8D6CB;
   --color-text: #58595d;
   --color-accent: #AD6A6C;
+
+  --color-light-bg: #f5e0dc;
+  --color-dark-brown: #e85e55;
+  
 }
 html, body {
   margin: 0;
@@ -25,7 +29,7 @@ html, body {
   height: 100vh;
   width: 100vw;
   display: flex;
-  background-color: var(--color-bg);
+  background-color: var(--color-light-bg);
 }
 .half-container {
   display: flex;
@@ -36,8 +40,9 @@ html, body {
 .right-block {
   flex:3;
   height: 100%;
+  /* border-left: 1px solid var(--color-secondary); */
 }
-.LeftBlock {
+.LeftBlock-wrapper {
   flex-shrink: 0;
   height: 100vh;
   flex:2;
@@ -45,13 +50,22 @@ html, body {
   top: 0;
   overflow-y: auto;
   padding: 1rem;
-  background-color: var(--color-bg); /* Optional for visual */
-  display: flex
-;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: start;
-    padding: 50px;
+  background-color: white; /* Optional for visual */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  padding: 50px;
+}
+
+.LeftBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  flex:2;
+  padding: 50px;
+  background-color: white;
 }
 
 .intro-block{
@@ -111,9 +125,11 @@ html, body {
   flex-direction: column;
 }
 .right-container, .right-container > section {
-  height: 100%;
+  height: 100vh;
   overflow-y: auto;
   padding: 2rem;
+  align-items: center;
+  justify-content: center;
   scroll-behavior: smooth;
   color: var(--color-secondary)
 }
@@ -151,7 +167,7 @@ html, body {
   flex-direction: column;
 }
 .project-title > a {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--color-secondary);
   margin-bottom: 10px;
 }

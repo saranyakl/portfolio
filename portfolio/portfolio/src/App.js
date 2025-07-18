@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App page">
       <div className="half-container">
-        <div className="LeftBlock">
+        <div className="LeftBlock-wrapper">
           <LeftBlock />
         </div>
         <div className="right-block">
